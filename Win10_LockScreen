@@ -1,0 +1,3 @@
+$WallpaperURL = https://thbintuneresources.blob.core.windows.net/images/Add%20a%20subheading.png?sp=r&st=2022-07-28T17:55:14Z&se=2023-07-29T01:55:14Z&spr=https&sv=2021-06-08&sr=b&sig=5pMVgSi4l2QRKF1aA%2FyvmF81%2Fs1Sig5GOZ6IO8MK2PY%3D
+$ImageDestinationFolder = "c:\temp"
+$WallpaperDestinationFile = "$ImageDestinationFolder\wallpaper.png" $LockScreenDestinationFile = "$ImageDestinationFolder\LockScreen.png"
