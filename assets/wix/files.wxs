@@ -1584,6 +1584,21 @@
         <Component Id="cmp044F67223E6D490D8533691BF50B2B86">
           <File Id="fil461F92924EE64C589D486A178AAD1342" KeyPath="yes" Source="$(var.ProductSourcePath)\ref\System.Formats.Tar.dll" />
         </Component>
+        <Component Id="cmpC88026C651AE4669839325FE456F11C7">
+          <File Id="filC6309E2B40DA443C8D607384B3092E2D" KeyPath="yes" Source="$(var.ProductSourcePath)\ref\System.Net.Quic.dll" />
+        </Component>
+        <Component Id="cmp3F742CCB5AD447D193F8D39AD176E6FA">
+          <File Id="fil723904057BF84A7BBEEDCC19575CC86E" KeyPath="yes" Source="$(var.ProductSourcePath)\ref\System.Formats.Asn1.dll" />
+        </Component>
+        <Component Id="cmpAFE1753A60704CB9953B8CCE54FE1F20">
+          <File Id="filD135F1792D9D49E2A51334FAE1F992BE" KeyPath="yes" Source="$(var.ProductSourcePath)\ref\System.Runtime.InteropServices.JavaScript.dll" />
+        </Component>
+        <Component Id="cmp411122497AF54B24B0D665CBF766D3ED">
+          <File Id="fil70077259B8734E3EB6F501BC3637317A" KeyPath="yes" Source="$(var.ProductSourcePath)\ref\System.Text.Encodings.Web.dll" />
+        </Component>
+        <Component Id="cmp97508AC96768465983760DD75ABD0F2C">
+          <File Id="filA6DD76AA9E1C45F49AC5C0B3A9679E31" KeyPath="yes" Source="$(var.ProductSourcePath)\ref\System.Text.Encoding.CodePages.dll" />
+        </Component>
       </Directory>
       <Directory Id="dirC72EEAF9434D4AD066E0F4D20D8E816C" Name="en-US">
         <Component Id="cmpDC2EF4541FA5A2E63F36A8CD6C5FA51B">
@@ -1653,6 +1668,9 @@
         <Directory Id="dir814D10C6FCD49781C626235B1DB22D76" Name="Microsoft.PowerShell.Security">
           <Component Id="cmpDEDA23DDAB66342DB2C554F6B963C617">
             <File Id="fil5B71C67EDDC69A7238518F8E66D68DE7" KeyPath="yes" Source="$(var.ProductSourcePath)\Modules\Microsoft.PowerShell.Security\Microsoft.PowerShell.Security.psd1" />
+          </Component>
+          <Component Id="cmpA5C9148751F94EC5A43B60C8C3F95E54">
+            <File Id="fil23345F89730F467FB585FE230B590C94" KeyPath="yes" Source="$(var.ProductSourcePath)\Modules\Microsoft.PowerShell.Security\Security.types.ps1xml" />
           </Component>
         </Directory>
         <Directory Id="dirDD3349AACE61FF0B4AEC004BF05FF2F9" Name="PSDiagnostics">
@@ -3123,8 +3141,14 @@
       <Component Id="cmp8A466581FE0540CEB2210C64DA5F970B">
         <File Id="filE75D9761159B495A8DF7A1035E36EF05" KeyPath="yes" Source="$(var.ProductSourcePath)\System.Formats.Tar.dll" />
       </Component>
-      <Component Id="cmpCFB2D3927EB549CC9C65DA87B6BDC1F0">
-        <File Id="filCDB455902F6848C4ADC51ECA2BD8D99E" KeyPath="yes" Source="$(var.ProductSourcePath)\mscordaccore_$(var.FileArchitecture)_$(var.FileArchitecture)_7.0.22.32404.dll" />
+      <Component Id="cmp741230F5EC5840D98E4CC77B7243BEFC">
+        <File Id="fil3B6C366A69DC4251A54C2C6E7DFF3870" KeyPath="yes" Source="$(var.ProductSourcePath)\clrgc.dll" />
+      </Component>
+      <Component Id="cmp3F93842B5FE843758146510FC678F61E">
+        <File Id="fil4763053AED4F4413B49B8C418F3E9C1E" KeyPath="yes" Source="$(var.ProductSourcePath)\System.Runtime.InteropServices.JavaScript.dll" />
+      </Component>
+      <Component Id="cmp1EA0FC3085F140D6B01E573E1AA712C4">
+        <File Id="fil5BE3AF4FE67B4D0AB5A444039290D13A" KeyPath="yes" Source="$(var.ProductSourcePath)\mscordaccore_$(var.FileArchitecture)_$(var.FileArchitecture)_7.0.22.37506.dll" />
       </Component>
     </DirectoryRef>
   </Fragment>
@@ -4129,7 +4153,15 @@
       <ComponentRef Id="cmpF735DF855B6A444E8874E7FD15796C37" />
       <ComponentRef Id="cmp8A466581FE0540CEB2210C64DA5F970B" />
       <ComponentRef Id="cmp044F67223E6D490D8533691BF50B2B86" />
-      <ComponentRef Id="cmpCFB2D3927EB549CC9C65DA87B6BDC1F0" />
+      <ComponentRef Id="cmpA5C9148751F94EC5A43B60C8C3F95E54" />
+      <ComponentRef Id="cmpC88026C651AE4669839325FE456F11C7" />
+      <ComponentRef Id="cmp741230F5EC5840D98E4CC77B7243BEFC" />
+      <ComponentRef Id="cmp3F93842B5FE843758146510FC678F61E" />
+      <ComponentRef Id="cmp3F742CCB5AD447D193F8D39AD176E6FA" />
+      <ComponentRef Id="cmpAFE1753A60704CB9953B8CCE54FE1F20" />
+      <ComponentRef Id="cmp411122497AF54B24B0D665CBF766D3ED" />
+      <ComponentRef Id="cmp97508AC96768465983760DD75ABD0F2C" />
+      <ComponentRef Id="cmp1EA0FC3085F140D6B01E573E1AA712C4" />
     </ComponentGroup>
   </Fragment>
 </Wix>
